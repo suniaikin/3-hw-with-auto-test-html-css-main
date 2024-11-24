@@ -97,6 +97,8 @@ select:hover,
 
 .info-wrapper {
     /* 📍 Свойство flexbox для расположения 2-х списков в ряд */
+    display: flex;
+    justify-content: center;
 }
 
 .section-title {
