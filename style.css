@@ -35,16 +35,13 @@ header span {
     min-height: 100vh;
     /* 📍 Свойства flexbox для размещения container-a вертикально по центру */
     display: flex;
-    justify-content: center;
     align-items: center;
+    
 }
 
 .main-section .wrapper {
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
     display: flex;
-    justify-content: row;
-    height: 1024px;
-    align-items: center;
 }
 
 .text-wrapper {
@@ -97,8 +94,6 @@ select:hover,
 
 .info-wrapper {
     /* 📍 Свойство flexbox для расположения 2-х списков в ряд */
-    display: flex;
-    justify-content: center;
 }
 
 .section-title {
